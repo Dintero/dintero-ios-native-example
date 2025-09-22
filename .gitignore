@@ -1,0 +1,57 @@
+# Xcode
+#
+# Compiled source code
+######################
+*.o
+*.lo
+*.obj
+*.rej
+*.bak
+*.tr
+*.chg
+*.old
+*.xib.storyboardc
+*.nib
+
+# Build products
+################
+build/
+DerivedData/
+
+# Project metadata
+##################
+# This excludes user-specific settings, such as breakpoints and open files
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcworkspace/xcuserdata/
+
+# Swift Package Manager
+.swiftpm/
+# The resolved package file is usually tracked, but the internal folder is not.
+# *.xcworkspace/xcshareddata/SwiftPackageManager/Package.resolved
+
+# Cocoapods
+Pods/
+# If you are using Cocoapods, the 'Pods' folder is often excluded, and the 'Podfile.lock' is tracked.
+
+# Carthage
+Carthage/Build/
+
+# Other
+#
+# Logs and other files
+*.log
+
+# Debug symbols
+*.dSYM
+*.xcarchive/
+*.ipa
+
+# macOS specific files
+.DS_Store
+
+# Temporary files for text editors/IDE
+*~.nib
+*~.xib
+
+# Other user-specific files
+*.xcscheme
