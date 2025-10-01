@@ -3,6 +3,7 @@
 Native iOS app with payment using Dintero.
 
 ## Apple pay
+See [Apple Pay native payment documentation](https://docs.dintero.com/docs/checkout/apple-pay/apple-pay-native-app).
 
 The application takes an existing session for in-app payments.
 
@@ -70,5 +71,3 @@ be followed.
 9. In xcode app project settings, press the Signing and Capablities tab
 10. Press the "+ Capability" button and select Apple Pay
 11. Select the merchantID configured in step 1
-
-
