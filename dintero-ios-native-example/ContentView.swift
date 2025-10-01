@@ -169,7 +169,7 @@ func sendJSONRequest<T: Encodable, U: Decodable>(
 }
 
 func operationsURL(sessionId: String) throws -> URL {
-    guard var components = URLComponents(string: "https://checkout.test.dintero.com/v1/view/\(sessionId)/payments/dintero_psp.applepay") else {
+    guard var components = URLComponents(string: "https://\(dinteroHostname)/v1/view/\(sessionId)/payments/dintero_psp.applepay") else {
         throw PaymentError.invalidURL
     }
     components.queryItems = [URLQueryItem(name: "force_new", value: "true")]
