@@ -18,7 +18,7 @@ This example app shows how to:
 
 ## Creating a payment session for apple pay
 
-Sample session request body, not that the `rerturn_url` must
+Sample session request body, not that the `return_url` must
 match the app url namespace, and that `initial_recipient=merchant`
 must be set if the link in the session payment response should
 be followed.
